@@ -1,7 +1,11 @@
+   
+   /**
    Every transaction consumes your $TITS:
    5% fee auto add to the liquidity pool to locked forever when selling
    5% fee auto distribute to all $TITS holders
    50% Supply is burned at start.
+   */
+ 
    
 
 pragma solidity ^0.6.12;
