@@ -1,25 +1,10 @@
-/**
- *Submitted for verification at BscScan.com on 2021-03-01
-*/
-
-/**
- *Submitted for verification at BscScan.com on 2021-03-01
-*/
-
-/**
-  
-   #BEE
-   
-   #LIQ+#RFI+#SHIB+#DOGE = #BEE
-
-   #SAFEMOON features:
-   3% fee auto add to the liquidity pool to locked forever when selling
-   2% fee auto distribute to all holders
-   I created a black hole so #Bee token will deflate itself in supply with every transaction
+   #LABR features:
+   5% fee auto add to the liquidity pool to locked forever when selling
+   5% fee auto distribute to all holders
    50% Supply is burned at start.
    
 
- */
+
 
 pragma solidity ^0.6.12;
 // SPDX-License-Identifier: Unlicensed
