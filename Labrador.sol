@@ -1,10 +1,8 @@
-   $LABR features:
+   Every transaction consumes your $LABR:
    5% fee auto add to the liquidity pool to locked forever when selling
-   5% fee auto distribute to all holders
+   5% fee auto distribute to all $LABR holders
    50% Supply is burned at start.
    
-
-
 
 pragma solidity ^0.6.12;
 // SPDX-License-Identifier: Unlicensed
@@ -686,7 +684,7 @@ interface IUniswapV2Router02 is IUniswapV2Router01 {
 }
 
 
-contract SafeMoon is Context, IERC20, Ownable {
+contract Labrador is Context, IERC20, Ownable {
     using SafeMath for uint256;
     using Address for address;
 
@@ -704,8 +702,8 @@ contract SafeMoon is Context, IERC20, Ownable {
     uint256 private _rTotal = (MAX - (MAX % _tTotal));
     uint256 private _tFeeTotal;
 
-    string private _name = "SafeMoon";
-    string private _symbol = "SAFEMOON";
+    string private _name = "Labrador";
+    string private _symbol = "LABR";
     uint8 private _decimals = 9;
     
     uint256 public _taxFee = 5;
