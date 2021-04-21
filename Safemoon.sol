@@ -1,4 +1,4 @@
-   #LABR features:
+   $LABR features:
    5% fee auto add to the liquidity pool to locked forever when selling
    5% fee auto distribute to all holders
    50% Supply is burned at start.
